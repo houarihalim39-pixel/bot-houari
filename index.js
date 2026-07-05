@@ -1,7 +1,7 @@
 
 const { Client, Events, GatewayIntentBits, SlashCommandBuilder, REST, Routes } = require('discord.js');
 const { joinVoiceChannel } = require('@discordjs/voice');
-const { TOKEN } = require('./JSON/confing.json');
+const { TOKEN } = require('./json/confing.json');
 
 const client = new Client({ 
     intents: [
